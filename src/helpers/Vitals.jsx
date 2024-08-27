@@ -40,10 +40,11 @@ function Vitals(props) {
         </CardContent>
         <CardContent className="px-4">
           <Box className="mt-6 flex flex-row flex-wrap justify-between gap-3">
-            {VitalPageIcons.map((item) => {
+            {VitalPageIcons.map((item, ind) => {
               return (
                 <>
                   <Stack
+                    key={ind}
                     direction="row"
                     className="relative bottom-1 float-left mt-3"
                   >
@@ -84,8 +85,11 @@ function Vitals(props) {
               <Box className="ml-4 flex flex-row flex-wrap items-center gap-3">
                 {VitalFields.fields.map((field, index) => {
                   return (
-                    <Box className="max-w-fit rounded-md bg-gray-100 p-2">
-                      <Stack direction="row" key={index}>
+                    <Box
+                      className="max-w-fit rounded-md bg-gray-100 p-2"
+                      key={index}
+                    >
+                      <Stack direction="row">
                         <Typography
                           mt="4px"
                           className="text-xs font-semibold text-gray-500"

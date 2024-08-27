@@ -105,7 +105,7 @@ const Pads = () => {
               <Box className="mb-8 mt-2 grid grid-cols-3 justify-evenly gap-4">
                 {patientHistoryTitles.map((title, index) => {
                   return (
-                    <Stack direction="row">
+                    <Stack direction="row" key={index}>
                       <IconButton
                         size="small"
                         className="bottom-1 mr-3 rounded-3xl bg-gray-100 p-1"
