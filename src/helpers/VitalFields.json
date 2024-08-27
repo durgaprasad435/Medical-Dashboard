@@ -1,0 +1,94 @@
+{
+  "fields": [
+    {
+      "fieldName": "HOMA-IR",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "Waist Hip Ratio",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "QUICKI",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "Child Pugh",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "MELD Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "eGFR",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "NAFLD Fibrosis Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "Epworth Sleepiness Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "ABCD Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "LMP EDD",
+      "data_type": "date",
+      "value": ""
+    },
+    {
+      "fieldName": "USG EDD",
+      "data_type": "date",
+      "value": ""
+    },
+    {
+      "fieldName": "CVD 10 Yr Risk",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "HAS-BLED Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "CHA2DS2-Vasc Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "RCRI",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "Vital Capacity",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "Bode Index Score",
+      "data_type": "text",
+      "value": ""
+    },
+    {
+      "fieldName": "FIB-4",
+      "data_type": "text",
+      "value": ""
+    }
+  ]
+}
